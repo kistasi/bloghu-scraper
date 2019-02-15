@@ -14,7 +14,7 @@ def build_url page
 end
 
 def pager
-	(0...1187).each do | page |
+	(0...1195).each do | page |
 		parse_listing_page page
 	end
 end
